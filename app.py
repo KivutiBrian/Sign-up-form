@@ -2,7 +2,7 @@ from flask import Flask,render_template,request,flash,redirect,url_for
 from flask_sqlalchemy import SQLAlchemy
 
 # replace with your own postgres
-DB_URL = 'postgresql://postgres:Brian8053@@127.0.0.1:5432/mailingApp'
+DB_URL = ''
 
 app = Flask(__name__)
 

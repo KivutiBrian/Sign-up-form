@@ -44,7 +44,7 @@ In vs code open command palette `(View > Command Palette or (Ctrl+Shift+P)).`. T
 
 The command presents a list of available interpreters that VS Code can locate automatically (your list will vary; if you don't see the desired interpreter, see Configuring Python environments). From the list, select the virtual environment in your project folder that starts with `./env or .\env:`
 
-Run Terminal: Create New Integrated Terminal (Ctrl+Shift+ `)) 
+Run Terminal: Create New Integrated Terminal (Ctrl+Shift+`)) from the Command Palette, which creates a terminal and automatically activates the virtual environment by running its activation script.
 
 
 

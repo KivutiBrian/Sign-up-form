@@ -66,7 +66,7 @@ pip install psycopg2
 
 Open pgAdmin on your machine and create a new database 
 
-On `app.py` include your database url on the DB_URL eg `postgresql://postgres:password@127.0.0.1:5432/databasename`
+On `app.py` include your database url on the DB_URL eg `postgresql://postgres:password@127.0.0.1:5432/databasename`. replace the *password* on the url with your own password and the databasename with your own database name
 
 ```
 from flask import Flask,render_template,request,flash,redirect,url_for

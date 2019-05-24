@@ -36,7 +36,7 @@ In that that folder create a virtual environment called `env`
 
 ### Activate the environment
 
-Before you work on your project, activate the corresponding environment:
+Before you work on the project, activate the corresponding environment:
 
 On the terminal/cmd, open the project in VSCODE `code .`
 
@@ -44,7 +44,7 @@ In vs code open command palette `(View > Command Palette or (Ctrl+Shift+P)).`. T
 
 The command presents a list of available interpreters that VS Code can locate automatically (your list will vary; if you don't see the desired interpreter, see Configuring Python environments). From the list, select the virtual environment in your project folder that starts with `./env or .\env:`
 
-Run Terminal: Create New Integrated Terminal `(Ctrl+Shift+`))`
+Run Terminal: Create New Integrated Terminal `(Ctrl+Shift+ ` )) `
 
 
 

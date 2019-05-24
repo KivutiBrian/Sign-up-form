@@ -48,6 +48,23 @@ Run Terminal: Create New Integrated Terminal (Ctrl+Shift+` )) from the Command P
 
 Note: On Windows, if your default terminal type is PowerShell, you may see an error that it cannot run activate.ps1 because running scripts is disabled on the system. The error provides a link for information on how to allow scripts. Otherwise, use Terminal: Select Default Shell to set "Command Prompt" or "Git Bash" as your default instead.
 
+### Installing
+
+In the virtual environment install the following:
+
+```
+pip install flask
+
+pip install Flask-SQLAlchemy
+
+pip install psycopg2
+
+
+```
+
+
+
+
 
 
 

@@ -11,17 +11,19 @@ These instructions will get you a copy of the project up and running on your loc
 To get started you need the following
 
 ```
+Python installed on your local machine
 PostgresSQL installed on your local machine
+
 Flask
 Flask-SQLAlchemy
 Psycopg2
 ```
 
-### Installing
+### Creating an environment
 
 You need a virtual environment to manage the dependancies
 
-Open your terminal and cd to the project folder.
+Open your terminal/cmd and cd to the project folder.
 In that that folder create a virtual environment called `env`
 
 #windows
@@ -31,6 +33,21 @@ In that that folder create a virtual environment called `env`
 #linux/macOS
 
 `sudo apt-get install python3-venv`
+
+### Activate the environment
+
+Before you begin the installation of various dependencies, you need to activate the corresponding `environment`
+
+On the terminal/cmd, open the project in VSCODE `code .`
+
+In vs code open command palette `(View > Command Palette or (Ctrl+Shift+P)).`. Then select the Python: Select Interpreter command:
+
+The command presents a list of available interpreters that VS Code can locate automatically (your list will vary; if you don't see the desired interpreter, see Configuring Python environments). From the list, select the virtual environment in your project folder that starts with `./env or .\env:`
+
+
+
+
+
 
 
 

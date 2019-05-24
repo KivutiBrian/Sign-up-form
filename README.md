@@ -13,7 +13,7 @@ To get started you need the following
 ```
 A code editor (preferably vscode)
 Python installed on your machine
-PostgresSQL installed on your machine
+PostgreSQL installed on your machine
 
 ```
 

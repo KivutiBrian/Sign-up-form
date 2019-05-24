@@ -24,3 +24,13 @@ You need a virtual environment to manage the dependancies
 Open your terminal and cd to the project folder.
 In that that folder create a virtual environment called `env`
 
+windows
+
+`python -m venv env`
+
+linux/macOS
+
+`sudo apt-get install python3-venv`
+
+
+

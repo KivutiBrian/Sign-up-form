@@ -32,7 +32,7 @@ In that that folder create a virtual environment called `env`
 
 #linux/macOS
 
-`sudo apt-get install python3-venv`
+`python3 -m venv env`
 
 ### Activate the environment
 

@@ -11,12 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 To get started you need the following
 
 ```
-Python installed on your local machine
-PostgresSQL installed on your local machine
+A code editor (preferably vscode)
+Python installed on your machine
+PostgresSQL installed on your machine
 
-Flask
-Flask-SQLAlchemy
-Psycopg2
 ```
 
 ## Creating an environment

@@ -6,7 +6,7 @@ This is simple sign up form with backend(using Flask) and a database(using Postg
 
 These instructions will get you a copy of the project up and running on your local machine for development.
 
-### Prerequisites
+## Prerequisites
 
 To get started you need the following
 
@@ -19,7 +19,7 @@ Flask-SQLAlchemy
 Psycopg2
 ```
 
-### Creating an environment
+## Creating an environment
 
 You need a virtual environment to manage the dependancies
 
@@ -34,7 +34,7 @@ In that that folder create a virtual environment called `env`
 
 `python3 -m venv env`
 
-### Activate the environment
+## Activate the environment
 
 Before you work on the project, activate the corresponding environment:
 
@@ -48,7 +48,7 @@ Run Terminal: Create New Integrated Terminal (Ctrl+Shift+` )) from the Command P
 
 Note: On Windows, if your default terminal type is PowerShell, you may see an error that it cannot run activate.ps1 because running scripts is disabled on the system. The error provides a link for information on how to allow scripts. Otherwise, use Terminal: Select Default Shell to set "Command Prompt" or "Git Bash" as your default instead.
 
-### Installing
+## Installing
 
 In the virtual environment install the following:
 
@@ -61,6 +61,8 @@ pip install psycopg2
 
 
 ```
+
+## Database
 
 
 

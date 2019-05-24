@@ -64,6 +64,26 @@ pip install psycopg2
 
 ## Database
 
+Open pgAdmin on your machine and create a new database 
+
+On `app.py` include your DB_URL 
+
+```
+from flask import Flask,render_template,request,flash,redirect,url_for
+from flask_sqlalchemy import SQLAlchemy
+
+# replace with your own postgres
+DB_URL = ''
+
+app = Flask(__name__)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = DB_URL
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SECRET_KEY'] ='some-secret-string'
+
+db = SQLAlchemy(app)
+
+```
 
 
 

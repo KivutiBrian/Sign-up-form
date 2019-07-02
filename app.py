@@ -2,7 +2,11 @@ from flask import Flask,render_template,request,flash,redirect,url_for
 from flask_sqlalchemy import SQLAlchemy
 
 # replace with your own postgres
-DB_URL = ''
+# DB_URL = 'postgresql://postgres:Brian8053@@127.0.0.1:5432/mailingApp'
+
+# heroku 
+DB_URL = 'postgres://mslemiksoajbnk:1e7fa29efc4ee02ea46586fa6784da17d77ed9f08f2186f0a59fe01b64821b92@ec2-174-129-227-146.compute-1.amazonaws.com:5432/d1uhbdtngmk28p'
+
 
 app = Flask(__name__)
 
